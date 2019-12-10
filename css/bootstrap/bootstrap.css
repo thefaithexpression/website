@@ -5357,7 +5357,7 @@ button.bg-primary:focus {
   background-color: #cc6f00 !important; }
 
 .bg-secondary {
-  background-color: #6c757d !important; }
+  background-color: #white !important; }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
