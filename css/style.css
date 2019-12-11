@@ -1,3 +1,74 @@
+
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+  /* STYLES GO HERE */
+    .banner {
+      width: 400px
+    }
+  }
+
+  
+  /* Smartphones (portrait) ----------- */
+  @media only screen
+  and (max-width : 320px) {
+  /* STYLES GO HERE */
+    .banner {
+      width: 400px
+    }
+  }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px) {
+  /* STYLES GO HERE */
+    .banner {
+      width: 700px
+    }
+  }
+
+  
+  /* iPads (portrait) ----------- */
+  @media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation : portrait) {
+  /* STYLES GO HERE */
+    .banner {
+      width: 700px
+    }
+  }
+  
+  /* Desktops and laptops ----------- */
+  @media only screen
+  and (min-width : 1224px) {
+  /* STYLES GO HERE */
+    .banner {
+      width: 1000px
+    }
+  }
+  
+  /* Large screens ----------- */
+  @media only screen
+  and (min-width : 1824px) {
+  /* STYLES GO HERE */
+    .banner {
+      width: 1000px
+    }
+  }
+  
+  /* iPhone 5 (portrait &amp; landscape)----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 568px) {
+  /* STYLES GO HERE */
+    .banner {
+      width: 400px
+    }
+  }
+
 /* Base */
 html {
   overflow-x: hidden; }
@@ -1640,7 +1711,7 @@ h1, h2, h3, h4, h5,
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  max-width: 700px; }
+  }
   .box-92819 h1 {
     font-weight: 900 !important;
     font-size: 5rem;
@@ -1798,11 +1869,11 @@ h1, h2, h3, h4, h5,
   -ms-flex: 0 0 80px;
   flex: 0 0 80px;
   height: 80px;
-  border: 2px solid #fff;
+  border: 2px solid black;
   position: relative;
   display: block;
   font-size: 1.5rem;
-  color: #fff; }
+  color: black; }
   .feature-29012 .number > span {
     position: absolute;
     top: 50%;
@@ -1813,7 +1884,7 @@ h1, h2, h3, h4, h5,
 
 .feature-29012 h3 {
   font-size: 20px;
-  color: #fff; }
+  color: black; }
 
 .feature-29012 p {
   font-size: 1rem;
